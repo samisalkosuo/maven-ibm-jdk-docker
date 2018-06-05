@@ -1,6 +1,6 @@
 # maven-ibm-jdk-docker
 
-Maven image with IBM JDK. 
+Maven Docker image using IBM JDK. 
 
 ## Usage
 
