@@ -9,7 +9,7 @@ RUN apt-get update \
 WORKDIR /
 
 #install Maven
-ENV MVN_VERSION 3.5.3
+ENV MVN_VERSION 3.6.0
 RUN wget -q http://www.nic.funet.fi/pub/mirrors/apache.org/maven/maven-3/${MVN_VERSION}/binaries/apache-maven-${MVN_VERSION}-bin.zip
 RUN unzip -q apache-maven-${MVN_VERSION}-bin.zip \
     && mv /apache-maven-${MVN_VERSION} /maven 
